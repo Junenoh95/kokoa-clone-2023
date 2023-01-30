@@ -14,3 +14,18 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icon {
+  position: relative;
+}
+
+.screen-header__icon--active {
+  background-color: #ff6229;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
