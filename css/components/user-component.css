@@ -48,7 +48,23 @@
   align-items: flex-end;
 }
 
+.user-component__column-icon {
+  color: #000000;
+}
+
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__warning {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  color: #ff5b49;
+  border: 2px solid #ff5b49;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
