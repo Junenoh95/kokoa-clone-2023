@@ -68,3 +68,7 @@
   justify-content: center;
   font-size: 14px;
 }
+
+.user-component--chat-screen:not(:last-of-type) {
+  margin: 24px 0;
+}
