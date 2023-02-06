@@ -26,6 +26,7 @@
 
 .icon-row__icon span {
   margin-top: 18px;
+  text-align: center;
 }
 
 .icon-row__icon--active {
