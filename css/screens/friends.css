@@ -37,6 +37,7 @@
   }
   to {
     opacity: 0;
+    visibility: hidden;
   }
 }
 
@@ -52,4 +53,6 @@
   z-index: 2;
   font-size: 132px;
   color: #3c1e1e;
+  animation: hideSplshScreen 0.3s ease-in-out forwards;
+  animation-delay: 3s;
 }
