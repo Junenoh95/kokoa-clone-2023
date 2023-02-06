@@ -1,0 +1,32 @@
+body {
+  background-color: #ed6e51;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  background-color: #f1dfb8;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #000000;
+  flex-wrap: wrap;
+}
+
+.main-box__boxes {
+  background-color: #377e7f;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #ffffff;
+}
+
+.main-box__boxes:nth-child(2) {
+  border: 3px dotted #ffffff;
+  width: 200px;
+}
